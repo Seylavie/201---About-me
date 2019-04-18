@@ -1,0 +1,10 @@
+h1 {
+  color: red;
+  font-size: 200%;
+  background-color: rgb(74, 117, 236);
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
