@@ -1,10 +1,18 @@
 h1 {
-  color: red;
-  font-size: 200%;
+  color:mediumblue;
+  font-size: 400%;
   background-color: rgb(74, 117, 236);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-bottom: 100%;
 }
 
 li {
   display: inline;
   margin-right: 10px;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  font-size: 200%;
+}
+
+nav {
+  background-color:rgb(30, 84, 233);
 }
