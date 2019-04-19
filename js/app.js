@@ -1,6 +1,6 @@
 'use strict';
 
-var questions = ['Do I have siblings?', 'Do I live on Mars?'];
+var questions = ['Do I have siblings?', 'Do I live on Mars?', ];
 var answers = ['Yes', 'No']
 
 

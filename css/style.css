@@ -1,9 +1,9 @@
 h1 {
-  color:mediumblue;
+  color:rgb(18, 15, 189);
   font-size: 400%;
   background-color: rgb(74, 117, 236);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  border-bottom: 100%;
+  border: inset black 4px;
 }
 
 li {
@@ -15,4 +15,12 @@ li {
 
 nav {
   background-color:rgb(30, 84, 233);
+  border-style: inset;
+  border-width: 4px;
+  border-top-width: 0px;
+  border-color: black;
+}
+
+body {
+  background-color: goldenrod;
 }
