@@ -1,16 +1,16 @@
 h1 {
-  color:rgb(18, 15, 189);
-  font-size: 400%;
-  background-color: rgb(74, 117, 236);
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: whitesmoke;
+  font-size: 650%;
+  font-family: 'Cute Font', cursive;
   border: inset black 4px;
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/03/08/32/banner-1176676_960_720.jpg");
 }
 
 li {
   display: inline;
   margin-right: 10px;
-  font-family: 'Arial Narrow Bold', sans-serif;
-  font-size: 200%;
+  font-family: 'Cute Font', cursive;
+  font-size: 300%;
 }
 
 nav {
@@ -21,6 +21,34 @@ nav {
   border-color: black;
 }
 
+/*unvisited link*/
+a:link {
+  color: whitesmoke;
+  text-decoration: none;
+  background-color: rgb(30, 84, 233);
+}
+
+/* mouse over link*/
+a:hover {
+  color: cyan;
+  background-color: black;
+}
+
+/* selected link*/
+a:active {
+  color: rgb(21, 61, 170);
+}
+/* visisted link*/
+a:visited {
+  text-decoration: none;
+  color: 
+}
+
+
 body {
-  background-color: goldenrod;
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/23/21/38/pixels-1275701_960_720.jpg");
+}
+
+P {
+  color: whitesmoke;
 }
