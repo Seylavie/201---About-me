@@ -1,24 +1,31 @@
 'use strict';
 
-var questions = ['Do I have siblings?', 'Do I live on Mars?', ];
-var answers = ['Yes', 'No']
-
+var questions = ['Do I have siblings ?', 'Am I from Mars?', 'Can I go fishing in the Sahara?', 'Have I ever eaten Balut? ', 'Have I ever been ice skating in the Grand Canyon?' ];
+var answers = ['yes', 'no', 'yes', 'no', 'no' ]
 
 
 //Prompt user and get a response
-var response = prompt(questions[0]);
-if (response === answers[0])//.toLowerCase() {
-  alert('You are right!');
-  console.log({correct:'Yes'});
+var response = prompt(questions[0]).toLowerCase();
+
+//Loop over questions
+for (var i = 0; i < questions.length; i++) {
+  if (response === answers[0]) {
+    alert('You are right!');
+    console.log({correct:'Yes'});
+    break;
+  } else {
+    alert('Oh, but I do.');
+    console.log({incorrect:'No'});
+    break;
+  }
+}
+
+
+/*var response = prompt(questions[1]);
+if (response === answers[1]) {
+  alert('Congrats! :)');
+  console.log({correct:'No'});
 } else {
-  alert('Nope, sorry.');
-  console.log({incorrect:'No'});
-}
-
-//var arrayLength = questions.length, answers.length;
-//for (i = 0; i < arrayLength; i++)
-
-/*switch (answers) {
-  case 'Yes':
-  alert('why')
-}
+  alert('Is that an insult? :(');
+  console.log({incorrect:'Yes'});
+}*/
