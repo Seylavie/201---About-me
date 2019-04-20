@@ -1,12 +1,14 @@
 'use strict';
 
 var questions = ['Do I have siblings ?', 'Am I from Mars?', 'Can I go fishing in the Sahara?', 'Have I ever eaten Balut? ', 'Have I ever been ice skating in the Grand Canyon?'];
-var answers = ['yes', 'no', 'yes', 'no', 'no']
+var answers = ['yes', 'no', 'yes', 'no', 'no'];
 
-var numQuestion = ['How many hours do I sleep?']
-var numAnswer = 11
+var numQuestion = ['How many hours do I sleep?'];
+var numAnswer = 11;
 
 //Prompt user and get a response
+ var name = prompt('What is your name?');
+
 
 for (var i = 0; i < questions.length; i++) {
   var response = prompt(questions[i]).toLowerCase();
