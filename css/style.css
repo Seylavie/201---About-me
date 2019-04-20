@@ -1,9 +1,14 @@
 h1 {
-  color: whitesmoke;
+  color: rgb(64, 128, 165);
+  text-shadow: 4px 4px black;
   font-size: 650%;
   font-family: 'Cute Font', cursive;
   border: inset black 4px;
-  background-image: url("https://cdn.pixabay.com/photo/2016/02/03/08/32/banner-1176676_960_720.jpg");
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  background-image: url("https://i.pinimg.com/originals/92/47/22/92472268da60310eb9b5738ae146deb2.png");
+  background-position: 400px;
 }
 
 li {
@@ -11,27 +16,31 @@ li {
   margin-right: 10px;
   font-family: 'Cute Font', cursive;
   font-size: 300%;
+  padding-right: 10px;
+  padding-left: 40px;
 }
 
 nav {
-  background-color:rgb(30, 84, 233);
+  background-image: url("https://cdn.pixabay.com/photo/2016/09/05/18/54/texture-1647380_960_720.jpg");
   border-style: inset;
   border-width: 4px;
   border-top-width: 0px;
-  border-color: black;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-color: black;*/
 }
 
 /*unvisited link*/
 a:link {
-  color: whitesmoke;
+  color: black;
   text-decoration: none;
-  background-color: rgb(30, 84, 233);
+  background-image: url("https://cdn.pixabay.com/photo/2016/09/05/18/54/texture-1647380_960_720.jpg");
 }
 
 /* mouse over link*/
 a:hover {
-  color: cyan;
-  background-color: black;
+  color: blue;
+  background-color: greenyellow;
 }
 
 /* selected link*/
@@ -41,12 +50,12 @@ a:active {
 /* visisted link*/
 a:visited {
   text-decoration: none;
-  color: 
 }
 
-
 body {
-  background-image: url("https://cdn.pixabay.com/photo/2016/03/23/21/38/pixels-1275701_960_720.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2015/11/07/09/14/sunrise-1030592_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 P {
