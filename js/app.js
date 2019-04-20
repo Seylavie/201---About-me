@@ -17,17 +17,45 @@ if (response === answers[0]) {
   console.log({incorrect:'No'});
 }
 
-var response1 = prompt(numQuestion[0]);
-if (response1 > numAnswer) {
-  alert('That is to much!');
-} else {
-  alert('That is to low.');
-}
-/*var response = prompt(questions[1]);
+var response = prompt(questions[1]);
 if (response === answers[1]) {
   alert('Congrats! :)');
   console.log({correct:'No'});
 } else {
   alert('Is that an insult? :(');
   console.log({incorrect:'Yes'});
-}*/
+}
+
+var response = prompt(questions[2]);
+if (response === answers[2]) {
+  alert('Yay!');
+  console.log({correct:'No'});
+} else {
+  alert('Why not? :(');
+  console.log({incorrect:'Yes'});
+}
+
+var response = prompt(questions[3]);
+if (response === answers[3]) {
+  alert('Congrats! :)');
+  console.log({correct:'No'});
+} else {
+  alert('Is that an insult? :(');
+  console.log({incorrect:'Yes'});
+}
+
+var response = prompt(questions[4]);
+if (response === answers[4]) {
+  alert('Congrats! :)');
+  console.log({correct:'No'});
+} else {
+  alert('Is that an insult? :(');
+  console.log({incorrect:'Yes'});
+}
+
+var response1 = prompt(numQuestion[0]);
+if (response1 > numAnswer) {
+  alert('That is to much!');
+} else {
+  alert('That is to low.');
+}
