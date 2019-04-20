@@ -49,6 +49,7 @@ a:active {
 /* visisted link*/
 a:visited {
   text-decoration: none;
+  color: darkcyan;
 }
 
 body {
