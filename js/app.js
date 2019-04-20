@@ -37,19 +37,19 @@ if (response === answers[2]) {
 
 var response = prompt(questions[3]);
 if (response === answers[3]) {
-  alert('Congrats! :)');
+  alert('Eww, no.');
   console.log({correct:'No'});
 } else {
-  alert('Is that an insult? :(');
+  alert('Correct!');
   console.log({incorrect:'Yes'});
 }
 
 var response = prompt(questions[4]);
 if (response === answers[4]) {
-  alert('Congrats! :)');
+  alert('Cool');
   console.log({correct:'No'});
 } else {
-  alert('Is that an insult? :(');
+  alert('Of course not :/');
   console.log({incorrect:'Yes'});
 }
 
