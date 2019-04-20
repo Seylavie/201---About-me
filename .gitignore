@@ -7,3 +7,7 @@ logs
 
 # Optional eslint cache
 .eslintcache
+
+#vs code
+.vscode
+
